@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<title>品优购-个人注册</title>
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<header class="header w">
+			<a href="#" target="_blank">
+				<img src="images/logo.png" >
+			</a>
+		</header>
+		
+		<form action="success.html" method="post">
+			<!-- 注册主体部分 -->
+			<div class="registerarea w">
+				<div class="hd">
+					<h3>注册用户</h3>
+					<a href="#" target="_blank">我有账号，<span class="style_red">去登录</span></a>
+				</div>
+				<div class="reg_form">
+					<ul>
+						<li><label for="">手机号：</label>
+						<input type="tel" name="tel" class="inp"/>
+						<span class="error"><i class="error_ico"></i>手机号码格式不正确，请从新输入</span>
+						</li>
+						<li><label for="">短信验证码：</label>
+						<input type="tel" name="code" maxlength="6" class="inp" />
+						<span class="success"><i class="success_ico"></i>短信验证码正确</span>
+						</li>
+						<li><label for="">登录密码：</label>
+						<input type="password" name="password" class="inp"/>
+						<span class="error"><i class="error_ico"></i>密码少于六位数，请从新输入</span>
+						</li>
+						<li class="safe">安全程度 <em class="weak">弱</em> <em class="medium">中</em> <em class="strong">强</em></li>
+						<li><label for="">确认密码：</label>
+						<input type="password" name="password" class="inp"/>
+						<span class="error"><i class="error_ico"></i>密码不一致，请从新输入</span>
+						</li>
+						<li class="agree">
+							<input type="checkbox" name="checkbox"/>
+							同意协议并注册 <a href="#" target="_blank" style="color: #1ba1e6;">《品优购用户协议》</a>
+						</li>
+						<li>
+							<input type="submit" name="submit" value="完成注册" class="submit"/>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</form>
+		
+		<!-- 底部 -->
+		<footer class="footer w">
+			<!-- 版权模块 -->
+			<div class="mod_copyright">
+				<div class="links">
+					<a href="" target="_blank">关于我们</a> |
+					<a href="" target="_blank">联系我们</a> |
+					<a href="" target="_blank">联系客服</a> |
+					<a href="" target="_blank">商家入驻</a> |
+					<a href="" target="_blank">营销中心</a> |
+					<a href="" target="_blank">手机品优购</a> |
+					<a href="" target="_blank">友情链接</a> |
+					<a href="" target="_blank">销售联盟</a> |
+					<a href="" target="_blank">品优购社区</a> |
+					<a href="" target="_blank">品优购公益</a> |
+					<a href="" target="_blank">English Site</a> |
+					<a href="" target="_blank">Contact U</a>
+				</div>
+				<div class="copyright">
+					地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn<br />
+					京ICP备08001421号京公网安备110108007702
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
