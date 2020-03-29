@@ -1,0 +1,124 @@
+/* 注册页 */
+
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+.style_red {
+	color: #c81623;
+}
+
+/* 头部样式 */
+.header {
+	height: 84px;
+	border-bottom: 2px solid #C81623;
+}
+.header a img {
+	padding-top: 16px;
+}
+.registerarea {
+	height: 522px;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+}
+.registerarea .hd {
+	height: 41px;
+	background: #ececec;
+	border-bottom: 1px solid #ccc;
+	padding: 0 5px;
+	color: #333333;
+}
+.registerarea .hd h3 {
+	float: left;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.registerarea .hd a {
+	float: right;
+	line-height: 40px;
+	font-size: 14px;
+	color: #333333;
+}
+.reg_form {
+	width: 600px;
+	margin: 54px auto 0;
+}
+.reg_form ul li {
+	margin-bottom: 20px;
+}
+.reg_form ul li label {
+	display: inline-block;
+	width: 88px;
+	text-align: right;
+}
+.reg_form ul li .inp {
+	height: 36px;
+	width: 240px;
+	border: 1px solid #999999;
+}
+.reg_form .error {
+	color: #df3033;
+}
+.reg_form .error_ico,.success_ico {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-top: -3px;
+	background: url(../images/error.png);
+}
+.reg_form .success {
+	color: green;
+}
+.reg_form .success_ico {
+	background: url(../images/success.png);
+}
+.safe {
+	padding-left: 170px;
+}
+.safe em {
+	padding: 0 12px;
+	color: #fff;
+}
+.weak {
+	background: #de1111;
+}
+.medium {
+	background: #40b83f;
+}
+.strong {
+	background: #f79100;
+}
+.agree {
+	margin-left: 90px;
+}
+.agree input {
+	vertical-align: middle;
+}
+.submit {
+	height: 34px;
+	width: 200px;
+	background: #c81623;
+	margin-left: 115px;
+	margin-top: 20px;
+	color: #fff;
+	font-size: 14px;
+}
+.mod_copyright {
+	margin-top: 20px;
+	text-align: center;
+	color: #666666;
+}
+.links {
+	margin-bottom: 3px;
+}
+.links a {
+	padding: 0 5px;
+}
+.copyright {
+	line-height: 20px;
+	color: #666666;
+}
+
+
