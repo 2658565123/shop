@@ -1,0 +1,126 @@
+/* 产品列表页 样式 */
+
+/* 字体图标声明 */
+@font-face {font-family: "iconfont";
+  src: url('font/iconfont.eot?t=1585217245753'); /* IE9 */
+  src: url('font/iconfont.eot?t=1585217245753#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAREAAsAAAAACQAAAAP1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDGgqFJIQgATYCJAMUCwwABCAFhG0HWhumBxEVnKfJfhS4sTOsb5Oc4IpdEGeo2CT9/yN4+PKqX5VkJqkxVla6V1CWDhbQCX53CdftANiaszxSEy5+YzmLHn0h+X4pvTQdOrH/OVza9AKb37Kc5tzUCzAOKKAxNgc89Q7kRP0Uahdxilj559MQgCKfsoimzdvamOiQSQIQo4YP7Y9ZUaIP4AWmJKpjpY5Yi4Epl8mrwJrk98UXKgsTJIYGmdlxSLNBNHwv3xuaE3F6RQhY6+kBYx1oQFlAB9Gj02ijZcGyaCgvqFMSzjVIwHsjEnkvI+Zp/+GBQKKhg4iCCGNlbMOQDu8lp0LAe01AU6TLAmSRIbNvhtCIViggHrgC/CPioolQ0NiY9Iz01Jg4paeyYqyE2KlOqh3yxBkl3eXpQ/x5GUODFWmlvJlO6qAasowy1LXDyERXR5ZWdw13P/Vgb2asvz9d9PAzgpiEFfsObUrttvHMgLS4FUFGz8BX8d2XZ4f94ICXFvLc1JDvp4sgWOGB43ZVvp/RNQj2ean2xkGnLuXvuLzionMhvPygc2jFke2H+9cVeVt15Fb/vMMTlqfvSjcYB7a7bnh5CRfTdUW8q7ZONEMviC2UEDrP72mmrGYJTZVqmmBfsKl069cwZFl2vG0pe0jeLHEc/uWLZvm2xaFF0U0tC8+90jSx2csXL182zflXJ9Gxr6L6ydPvbo5tKwfNzD26Kc5JmKFNzy/VoGa9/7PpO/NwWukG1jE18V6jpIblH5qrkz9mln8UPWfdbLn2sPXcPJJy3nppnZ0hdGdbVplHGY+St1llH/Y7kJL43xcvWn5r8aPIjMQpRcJFh8ghf37Qkv+j5TNNRgp9k6z7i4aLTBl/VzXf5IcTryUO8f0hSYPlxE+bhldSjqiWwjq/solpkAPkdrkXQMuXhQDkkWpa5J/2QIv7Jf6GeruKdu6bUPffMEYH4PHu/7PEHvmng6WCiQSY9QOwwCbd5xCVobv1nOmmGiwlBm5sJQoFRCDWZJ6vI06D00FgklaAJJo80DApitSxZcEghqoQhUkDUJShxfoYUpiAhtAtoDSLJBAkcgIk8VwGjUSuIXXsMzBI5xtEkSg0UIRFyo4xFBcIO94LxooZJB+wKTfENDpOMy9o+iqWMichPFA664HNcl2PnLFBWWNO9zRbVQISruEknYdVxdAKF5jqMldtd6sVdT1omXLtjNkLxooZJB+wKTcUtddx4+cvaPoqloGGHu0DpbPdw2a5BpBnYQM1PEv/7mm2qqSOI+EaTrIeKxpkaLuHFZjqMp/hb3crpRWhwuX+4voadwAKsoshPNd3Azd0I2fcvzEVLpiaNKdk/GomC8WaXIeG+1ef5ug4AAAA') format('woff2'),
+  url('font/iconfont.woff?t=1585217245753') format('woff'),
+  url('font/iconfont.ttf?t=1585217245753') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('font/iconfont.svg?t=1585217245753#iconfont') format('svg'); /* iOS 4.1- */
+}
+/* 秒杀logo */
+.nav {
+	overflow: hidden;
+}
+.sk {
+	position: absolute;
+	left: 190px;
+	top: 40px;
+	border-left: 1px solid #C81623;
+	padding: 3px 0 0 14px;
+}
+/* 秒杀导航栏 */
+.sk_list {
+	float: left;
+}
+.sk_list ul li {
+	float: left;
+}
+.sk_list ul li a {
+	display: block;
+	line-height: 47px;
+	padding: 0 30px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #000000;
+}
+.sk_con {
+	float: left;
+}
+.sk_con ul li {
+	float: left;
+}
+.sk_con ul li a {
+	display: block;
+	line-height: 49px;
+	padding: 0 25px;
+	font-size: 14px;
+	color: #666666;
+}
+.sk_con ul li:last-child > a::after {
+	content: '\e603';
+	font-family: "iconfont" !important;
+	font-size: 14px;
+}
+
+/* 主体部分 */
+.sk_bd {
+	margin-top: 25px;
+	margin-bottom: 270px;
+}
+.sk_bd ul li {
+	float: left;
+	height: 460px;
+	width: 290px;
+	margin-bottom: 10px;
+	border: 1px solid transparent;
+	overflow: hidden;
+}
+.sk_bd ul li:hover {
+	border: 1px solid #C81623;
+}
+.sk_bd ul li p {
+	padding: 0 14px;
+	font-family: "宋体";
+}
+.sk_bd > ul > li > i:first-of-type {
+	display: inline-block;
+	margin: 5px 8px 0 14px;
+}
+.margin_right {
+	margin-right: 13px;
+}
+.sk_bd ul li p:last-of-type div {
+	display: inline-block;
+}
+.sk_bd .status {
+	font-size: 14px;
+	color: #666666;
+	padding: 0 14px;
+	font-family: "宋体";
+}
+.sk_bd .status .bar {
+	display: inline-block;
+	width: 132px;
+	height: 12px;
+	border-radius: 6px;
+	border: 1px solid #C81623;
+	margin-top: 5px;
+	padding: 1px;
+}
+.sk_bd .status .bar-in {
+	width: 87%;
+	height: 8px;
+	border-radius: 6px;
+	background: #C81623;
+	transition: width 0.5s;
+}
+.sk_bd ul li:hover .bar-in {
+	width: 100%;
+}
+.sk_bd_footer {
+	width: 290px;
+	height: 50px;
+	margin-top: 20px;
+	background-color: #b1191a;
+	text-align: center;
+	line-height: 50px;
+}
+.sk_bd_footer a {
+	font-family: "宋体";
+	font-size: 20px;
+	color: #fff;
+}
+
+
