@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1311727",
+      "name": "angle-left",
+      "font_class": "angle-left",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "1311730",
+      "name": "angle-down",
+      "font_class": "angle-down",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1311734",
+      "name": "angle-right",
+      "font_class": "angle-right",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}
